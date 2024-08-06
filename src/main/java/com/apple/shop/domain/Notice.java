@@ -1,11 +1,11 @@
-package com.apple.shop;
+package com.apple.shop.domain;
 
 import jakarta.persistence.*;
 
 import java.util.Date;
 
 @Entity
-public class notice {
+public class Notice {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
 
